@@ -45,7 +45,7 @@ def basic_details():
 def choose_input_type():
     global itype
     print("\n\nDo you wish to enter weekly(w), monthly(m), or quarter-yearly(q) data?")
-    itype = input("Please choose either w, m or q as above.\n")
+    itype = input("Please choose either w, m or q as above. NOTE: Keep data ready in input.txt according to chosen input\n")
     
     if (itype not in ["w", "m", "q"]):
         print("\nPlease enter valid input")
