@@ -184,4 +184,4 @@ if __name__ == "__main__":
     elif itype == "q":
         quarterly()
 
-    temp = input("\nPress any key to exit!")
+    temp = input("\nPress enter to exit")
